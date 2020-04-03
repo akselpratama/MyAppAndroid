@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity2"
+    android:orientation="vertical"
+    android:background="@mipmap/background"
+    android:paddingLeft="40dp"
+    android:paddingRight="40dp"
+    android:paddingTop="70dp"
+    >
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@mipmap/menu3"
+        android:layout_marginTop="70dp"
+        />
+    <Button
+        android:id="@+id/btnprofil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/style_button_white"
+        android:fontFamily="@font/catamaran_bold"
+        android:onClick="onclickprofil"
+        android:text="Profil Saya"
+        android:textColorHint="#FF292828" />
+    <Button
+        android:id="@+id/btnkegiatan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/style_button_white"
+        android:fontFamily="@font/catamaran_bold"
+        android:onClick="onclickkegiatan"
+        android:text="Kegiatan Saya"
+        android:textColorHint="#FF292828" />
+    <Button
+        android:id="@+id/btnkeluar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/style_button_white"
+        android:fontFamily="@font/catamaran_bold"
+        android:onClick="onclickkeluar"
+        android:text="Keluar"
+        android:textColorHint="#FF292828" />
+</LinearLayout>

@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity2"
+    android:orientation="vertical"
+    android:background="@mipmap/background"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="30dp"
+            android:paddingTop="30dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="30dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="KEGIATAN SAYA"
+                    android:textSize="20sp"
+                    android:textColor="#f8f8f8"
+                    android:fontFamily="@font/catamaran_bold"
+                    />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/style_button_white"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/catamaran_bold"
+                    android:paddingLeft="7dp"
+                    android:paddingTop="5dp"
+                    android:text="SENIN"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/catamaran_medium"
+                    android:paddingLeft="7dp"
+                    android:text="- Buat tugas"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/catamaran_medium"
+                    android:paddingLeft="7dp"
+                    android:text="- Bekerja"
+                    android:paddingBottom="5dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/style_button_white"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/catamaran_bold"
+                    android:paddingLeft="7dp"
+                    android:paddingTop="5dp"
+                    android:text="SELASA"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/catamaran_medium"
+                    android:paddingLeft="7dp"
+                    android:text="- Buat tugas"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/catamaran_medium"
+                    android:paddingLeft="7dp"
+                    android:text="- Bekerja"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/catamaran_medium"
+                    android:paddingLeft="7dp"
+                    android:paddingBottom="5dp"
+                    android:text="- Olahraga"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/style_button_white"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/catamaran_bold"
+                    android:paddingLeft="7dp"
+                    android:paddingTop="5dp"
+                    android:text="RABU"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/catamaran_medium"
+                    android:paddingLeft="7dp"
+                    android:text="- Olahraga"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/catamaran_medium"
+                    android:paddingLeft="7dp"
+                    android:paddingBottom="5dp"
+                    android:text="- Bekerja"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/style_button_white"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/catamaran_bold"
+                    android:paddingLeft="7dp"
+                    android:paddingTop="5dp"
+                    android:text="KAMIS"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/catamaran_medium"
+                    android:paddingLeft="7dp"
+                    android:text="- Main game"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/catamaran_medium"
+                    android:paddingLeft="7dp"
+                    android:text="- Buat Tugas"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/catamaran_medium"
+                    android:paddingLeft="7dp"
+                    android:paddingBottom="5dp"
+                    android:text="- Bekerja"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/style_button_white"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/catamaran_bold"
+                    android:paddingLeft="7dp"
+                    android:paddingTop="5dp"
+                    android:text="JUMAT"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/catamaran_medium"
+                    android:paddingLeft="7dp"
+                    android:text="- Olahraga"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/catamaran_medium"
+                    android:paddingLeft="7dp"
+                    android:text="- Main game"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/catamaran_medium"
+                    android:paddingLeft="7dp"
+                    android:paddingBottom="5dp"
+                    android:text="- Bekerja"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/style_button_white"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/catamaran_bold"
+                    android:paddingLeft="7dp"
+                    android:paddingTop="5dp"
+                    android:text="SABTU"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/catamaran_medium"
+                    android:paddingLeft="7dp"
+                    android:text="- Olahraga"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/catamaran_medium"
+                    android:paddingLeft="7dp"
+                    android:text="- Main game"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/catamaran_medium"
+                    android:paddingLeft="7dp"
+                    android:text="- Buat Tugas"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/catamaran_medium"
+                    android:paddingLeft="7dp"
+                    android:paddingBottom="5dp"
+                    android:text="- Bekerja"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/style_button_white"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/catamaran_bold"
+                    android:paddingLeft="7dp"
+                    android:paddingTop="5dp"
+                    android:text="MINGGU"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/catamaran_medium"
+                    android:paddingLeft="7dp"
+                    android:text="- Olahraga"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/catamaran_medium"
+                    android:paddingLeft="7dp"
+                    android:text="- Main game"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/catamaran_medium"
+                    android:paddingLeft="7dp"
+                    android:paddingBottom="5dp"
+                    android:text="- Buat Tugas"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
